@@ -1,0 +1,169 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.page1{
+    height: 100vh;
+    overflow: hidden;
+    width: 100vw;
+    background-color: #f9f3ec;
+}
+
+nav{
+    height: 7vh;
+    width: 95vw;
+    /* position: fixed; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 0;
+    padding: 0 2.5vw;
+}
+
+.logo{
+    color: #03af7b;
+    font-size: 1.8em;
+    font-weight: 800;
+}
+
+.links{
+    display: flex;
+    gap: 25px;
+}
+
+.links span{
+    cursor: pointer;
+    font-size: 1.em;
+}
+
+.signup{
+    background-color: whitesmoke;
+    font-size: 1em;
+    padding: 1px 8px;
+    border-radius: 24px;
+    border: 1px solid black;
+    font-weight: 100;
+    cursor: pointer;
+}
+
+.login{
+    background-color: #000000;
+    font-size: 1em;
+    padding: 1px 8px;
+    border-radius: 24px;
+    border: 1px solid black;
+    font-weight: 100;
+    color: whitesmoke;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+
+#hero{
+   height: 50vh;
+   width: 100vw;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+
+.img-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-container span{
+    height:40px;
+    width: 40px;
+}
+
+.img-container span img{
+    height: 100%;
+    width: 100%;
+    object-fit:fill;
+}
+
+.plus{
+    font-size: 2em;
+    text-align: center;
+}
+
+
+.heading{
+    font-size: 5em;
+    margin-top: 10px;
+}
+
+.paragraph{
+    font-size: 0.9em;
+    margin-top: 10px;
+    color: gray;
+}
+
+
+.main-img-container{
+    height: 50vh;
+    width: 100vw;
+    position: relative;
+}
+
+.img1{
+    position: absolute;
+    top: -80%;
+    left: -10%;
+}
+
+.img2{
+    position: absolute;
+    top: -40%;
+    left: -10%;
+}
+
+.img3{
+    position: absolute;
+    top: -60%;
+    right: -10%;
+    height: 400px;
+}
+
+.img4{
+    position: absolute;
+    top: -40%;
+    right: 0%;
+    height: 500px;
+}
+
+.img5{
+    position: absolute;
+    top: 50%;
+    right: 40%;
+    height: 600px;
+}
+
+
+.img6{
+    position: absolute;
+    top: 0%;
+    right: 40%;
+    height: 400px;
+}
+
+.img7{
+    position: absolute;
+    top: -1%;
+    right: 20%;
+    height: 400px;
+}
+
+
+.img8{
+    position: absolute;
+    top: 2%;
+    left: 20%;
+    height: 500px;
+}
