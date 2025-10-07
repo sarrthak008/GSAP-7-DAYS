@@ -1,8 +1,8 @@
 
 const scroll = new FeatherScroll({
   smooth: true, // Enable smooth scrolling
-  duration: 5, // Scroll duration (seconds)
-  easing: (t) => 1 - Math.pow(1 - t, 3), // Easing function
+  duration: 5, 
+  easing: (t) => 1 - Math.pow(1 - t, 3),
   direction: 'vertical', // 'vertical' | 'horizontal'
   gestureDirection: 'both', // Mouse/touch gesture control
   mouseSensitivity: 1, // Sensitivity for wheel scrolling
