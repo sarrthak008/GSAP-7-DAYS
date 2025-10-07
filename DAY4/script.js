@@ -11,28 +11,14 @@
 // })
 
 
-// gsap.from(".green-box", {
-//     y: 100,
-//     duration: 2,
-//     opacity: 0,
-//     stagger: {
-//         grid: [6, 18],
-//         from: "random",
-//         amount: 1.5
-//     },
-//     repeat: -1
-// })
 
-console.log(gsap)
+
+// console.log(gsap)
 
 gsap.from(".text",{
-    y:-100,
+    x:-100,
     duration: 2,
     opacity:0,
     repeat:-1,
-    stagger:{
-        grid:[1,7],
-        amount:2,
-        from:"random"
-    },
+    stagger:0.1
 })
